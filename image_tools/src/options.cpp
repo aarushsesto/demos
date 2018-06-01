@@ -62,8 +62,8 @@ bool parse_command_options(
     ss << " -d: Queue depth. 10 (default)" << std::endl;
     ss << " -f: Publish frequency in Hz. 30 (default)" << std::endl;
     ss << " -k: History QoS setting:" << std::endl;
-    ss << "    0 - only keep last sample" << std::endl;
-    ss << "    1 - keep all the samples (default)" << std::endl;
+    ss << "    0 - only keep last sample (default)" << std::endl;
+    ss << "    1 - keep all the samples" << std::endl;
     if (show_camera != nullptr) {
       ss << " -s: Camera stream:" << std::endl;
       ss << "    0 - Do not show the camera stream" << std::endl;

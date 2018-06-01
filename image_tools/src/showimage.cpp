@@ -92,7 +92,7 @@ int main(int argc, char * argv[])
   // Initialize default demo parameters
   size_t depth = 10;
   rmw_qos_reliability_policy_t reliability_policy = RMW_QOS_POLICY_RELIABILITY_RELIABLE;
-  rmw_qos_history_policy_t history_policy = RMW_QOS_POLICY_HISTORY_KEEP_ALL;
+  rmw_qos_history_policy_t history_policy = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
   bool show_camera = true;
   std::string topic("image");
 
